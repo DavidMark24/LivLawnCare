@@ -1,0 +1,47 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+    width: 100px;
+}
+#navcenter {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#cover {
+    background-image: url(./images/professional-lawn-maintenance-nj-1024x680.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    min-height: 770px;
+    width: auto;
+}
+.title {
+    font-size: 15ch;
+    font-family: 'Odibee Sans', cursive;
+    /* background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);  */
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.base {
+    font-size: 6vh;
+    /* text-decoration: underline black; */
+    margin-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}

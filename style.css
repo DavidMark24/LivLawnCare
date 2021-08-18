@@ -1,5 +1,6 @@
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .logo {
     width: 100px;
@@ -46,8 +47,7 @@ body{
     color: #0c471c;
 }
 .lawn{
-    margin: 10%;
-    height: 100%;
+    height: 200px;
     width: 100%;
 }
 .pool{
@@ -57,20 +57,20 @@ body{
 }
 .liv{
     background-color: lightgrey;
-    padding: 4%;
-    font-size: 3vh;
-    margin-top: 2%;
-    margin-left: 30%;
+    padding: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    float: right;
 }
 .livs{
     background-color: lightgrey;
-    padding: 4%;
-    font-size: 3vh;
-    margin-top: 10%;
-    margin-right: 30%;
+    padding: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    float: left;
 }
 .base {
-    font-size: 6vh;
+    font-size: 2em;
     /* text-decoration: underline black; */
     margin-top: 15px;
     text-align: center;
@@ -78,21 +78,20 @@ body{
 }
 
 #contact {
-    font-size: 6vh;
+    font-size: 2em;
     text-align: center;
     color: #0c471c;
-    margin-top: 20px;
+    margin-top: 1em;
+
 }
 #hit {
     margin-top: 4%;
+    padding: 4em;
    text-align: center;
    color: white;
+   background-color: #0c471c 
 }
-#hits {
-    height: 40vh;
-    padding: 15px;
-    background-color: #0c471c ;
-}
+
 #city{
     color: white;
     text-align: center;
@@ -274,6 +273,29 @@ padding: 20px;
 text-align: center;
 margin-top: 65px;
 }
+  }
 
+  @media only screen and (min-width: 1295px) {
+
+.lawn {
+  height: 100%;
+  width: 100%;
+}
+.liv{
+  background-color: lightgrey;
+  padding: 2em;
+  font-size: 1.5em;
+  float: right;
+}
+.livs {
+  background-color: lightgrey;
+  padding: 2em;
+  font-size: 1.5em;
+  float: right;
+}
+.title {
+  text-align: center;
+  margin-top: 1em;
 }
 
+  }

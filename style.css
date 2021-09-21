@@ -1,22 +1,29 @@
-body{
+body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
 }
+
+/* Nav Logo  */
 .logo {
     width: 100px;
+    background-color: white;
 }
-.logo2{
+
+/* Contact Logo  */
+
+.logo2 {
     width: 200px;
     background-color: white;
     border-radius: 15px;
     -webkit-box-shadow: 6px 5px 7px -4px rgba(0, 0, 0, 0.7);
     box-shadow: 6px 5px 7px -4px rgba(0, 0, 0, 0.7);
 }
-#navcenter {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+
+/* Nav Bar  */
+
+    
+/* Main Cover  */
+
 #cover {
     background-image: url(./images/professional-lawn-maintenance-nj-1024x680.jpg);
     background-size: cover;
@@ -29,32 +36,31 @@ body{
 .title {
     font-size: 15ch;
     font-family: 'Odibee Sans', cursive;
-    /* background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);  */
     color: white;
     font-weight: bold;
-    /* border: 3px solid #f1f1f1; */
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
     width: 80%;
-    padding: 20px;
     text-align: center;
 }
-.llc{
-    color: #0c471c;
-}
-.lawn{
-    height: 200px;
+/* Pictures  */
+
+.lawn {
+
+    height: auto;
     width: 100%;
+    margin-top: 1.5em;
 }
-.pool{
+
+.pool {
     
-    height: 100%;
+    height: auto;
     width: 100%;
 }
+/* Services  */
+
 .liv{
     background-color: lightgrey;
     padding: 2em;
@@ -62,47 +68,36 @@ body{
     margin-top: 1em;
     float: right;
 }
-.livs{
+
+.livs {
     background-color: lightgrey;
     padding: 2em;
     font-size: 1em;
     margin-top: 1em;
     float: left;
 }
-.base {
-    font-size: 2em;
-    /* text-decoration: underline black; */
-    margin-top: 15px;
-    text-align: center;
-    color: #0c471c;
-}
+
+/* Contact  */
 
 #contact {
     font-size: 2em;
     text-align: center;
     color: #0c471c;
     margin-top: 1em;
+}
+/* Footer  */
 
-}
-#hit {
-    margin-top: 4%;
-    padding: 4em;
-   text-align: center;
-   color: white;
-   background-color: #0c471c 
-}
-
-#city{
-    color: white;
-    text-align: center;
-}
-footer{
+footer {
     margin-top: 15px;
     text-align: center;
 }
+
 .icon{
     color: #0c471c;
 }
+
+/* Testimonials */
+
 .test {
 height: 40px;
 }
@@ -235,67 +230,4 @@ height: 40px;
       box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
     }
   }
-  @media only screen and (max-width: 600px) {
-   .lawn {
-     width: 85%;
-     height: 100%;
-   }
-   .pool{
-    
-    height: 100%;
-    width: 100%;
-}
- #cover {
-  background-image: url(./images/professional-lawn-maintenance-nj-1024x680.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: blur(4px);
-  min-height: 770px;
-  width: 90%;
-}
-
-.title {
-font-size: 10ch;
-font-family: 'Odibee Sans', cursive;
-/* background-color: rgb(0,0,0);
-background-color: rgba(0,0,0, 0.4);  */
-color: white;
-font-weight: bold;
-/* border: 3px solid #f1f1f1; */
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-z-index: 2;
-width: 80%;
-padding: 20px;
-text-align: center;
-margin-top: 65px;
-}
-  }
-
-  @media only screen and (min-width: 1295px) {
-
-.lawn {
-  height: 100%;
-  width: 100%;
-}
-.liv{
-  background-color: lightgrey;
-  padding: 2em;
-  font-size: 1.5em;
-  float: right;
-}
-.livs {
-  background-color: lightgrey;
-  padding: 2em;
-  font-size: 1.5em;
-  float: right;
-}
-.title {
-  text-align: center;
-  margin-top: 1em;
-}
-
-  }
+  

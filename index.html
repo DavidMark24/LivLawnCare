@@ -1,148 +1,96 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Liv Lawn Care</title>
+</head>
+<body>
+<header>
+  <img class="logo" src="images/logo.png" alt="" srcset="">
+  <p class="head">Quality Care and Proper Service </p>
+</header>
 
-    <!-- Bootstrap CSS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="icon" type="image/png" href="images/lawn-mower.png" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Liv Lawn Care</title>
-  </head>
-  <body>
-    <!-- Nav Bar  -->
+<!-- Nav Bar  -->
 
-    <!-- Main Cover  -->
+<div class="navbar">
+  <div class="container">
+    <a id="mobile-cta" class="mobile-nav" href="#">Menu</a>
+    <nav>
+      <ul>
+        <li> <a href="#">Home</a>
+        </li>
+        <li> <a href="#">Services</a>
+        <li> <a href="#">Contact</a>
+        </li>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </div>
 
-    <div id="cover" class="container"></div>
-    <div id="box">
-      <h1 class="title">
-        Beautiful Lawns <br />
-        Start Here
-      </h1>
-    </div>
+<main>
+  <img class = "main" src="images/cropped-lawn-care-photo-Copy.jpeg" alt="lawn mower and grass">
+  <hr>
+</main>
 
-    <!-- Services  -->
+<!-- Services  -->
 
-    <div id="services" class="container">
-      <div class="row">
-        <img class="lawn" src="/images/lawn.jpg" alt="" srcset="" />
-        <p class="liv">
-          Welcome to <b class="llc">Live Lawn Care.</b> <br />
-          Professional Lawn and Pool Services for the Inland Empire. <br />
-          Liv Lawn Care is a family owned landscaping and pool service company
-          geared towards giving execptional service and quality care to every
-          client's home.
-        </p>
-      </div>
-      <div class="row">
-        <p class="livs">
-          We stand by giving our clients proper service with incredible results.
-          <br />
-          We put our best foot forward and always stand by our community.
-        </p>
+<section class="services">
+  <div class="container">
+    <h2>Services</h2>
+    <img class="lawn" src="images/professional-lawn-maintenance-nj-1024x680.jpg" alt="" srcset="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eligendi nostrum exercitationem natus repellendus nobis nesciunt unde deserunt modi tempora. Aliquam natus maiores amet qui delectus excepturi non! Molestias, deserunt.</p>
+    <img class="pool" src="images/pool2.jpg" alt="" srcset="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse neque non vitae maxime quia, possimus vel consequuntur aspernatur, tempore ea voluptatibus molestiae dignissimos eaque ad impedit, fugiat veniam sunt explicabo!</p>
+    <hr>
+  </div>
+</section>
 
-        <div class="col">
-          <img class="pool" src="/images/pool2.jpg" alt="" srcset="" />
+<!-- Testimonials  -->
+
+<section>
+  <div class="container">
+    <h2>
+      Testimonials
+    </h2>
+    <div class="slider">
+      <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+      <div class="slider__inner">
+        <div class="slider__contents"><img class="test" src="/images/grass.png" alt="" srcset="">
+          <h2 class="slider__caption">David Thomas</h2>
+          <p class="slider__txt">They are very profesional and got my pool ready for the summer!</p>
+        </div>
+        <div class="slider__contents"><img class="test" src="/images/grass.png" alt="" srcset="">
+          <h2 class="slider__caption">Alex Johnson</h2>
+          <p class="slider__txt">Love my yard, it looks amazing everytime I look at it! Great job!</p>
+        </div>
+        <div class="slider__contents"><img class="test" src="/images/grass.png" alt="" srcset="">
+          <h2 class="slider__caption">Linda Kim</h2>
+          <p class="slider__txt">Very nice and profesional. Always does great work on my yard.</p>
+        </div>
+        <div class="slider__contents"><img class="test" src="/images/grass.png" alt="" srcset="">
+          <h2 class="slider__caption">Lily Santiago</h2>
+          <p class="slider__txt">Live Lawn Care made my lawn look beautiful!</p>
         </div>
       </div>
     </div>
+</section>
+<hr>
 
-    <!-- Testimonials  -->
+<!-- Contact  --> 
 
-    <div class="container">
-      <h2 id="contact">Testimonials</h2>
-    </div>
-    <div class="container">
-      <div class="slider">
-        <input
-          type="radio"
-          name="slider"
-          title="slide1"
-          checked="checked"
-          class="slider__nav"
-        />
-        <input type="radio" name="slider" title="slide2" class="slider__nav" />
-        <input type="radio" name="slider" title="slide3" class="slider__nav" />
-        <input type="radio" name="slider" title="slide4" class="slider__nav" />
-        <div class="slider__inner">
-          <div class="slider__contents">
-            <img class="test" src="/images/grass.png" alt="" srcset="" />
-            <h2 class="slider__caption">David Thomas</h2>
-            <p class="slider__txt">
-              They are very profesional and got my pool ready for the summer!
-            </p>
-          </div>
-          <div class="slider__contents">
-            <img class="test" src="/images/grass.png" alt="" srcset="" />
-            <h2 class="slider__caption">Alex Johnson</h2>
-            <p class="slider__txt">
-              Love my yard, it looks amazing everytime I look at it! Great job!
-            </p>
-          </div>
-          <div class="slider__contents">
-            <img class="test" src="/images/grass.png" alt="" srcset="" />
-            <h2 class="slider__caption">Linda Kim</h2>
-            <p class="slider__txt">
-              Very nice and profesional. Always does great work on my yard.
-            </p>
-          </div>
-          <div class="slider__contents">
-            <img class="test" src="/images/grass.png" alt="" srcset="" />
-            <h2 class="slider__caption">Lily Santiago</h2>
-            <p class="slider__txt">
-              Live Lawn Care made my lawn look beautiful!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+<sectionn class="contact">
+  <div class="container">
+    <h2>Contact</h2>
 
-    <!-- Contact  -->
+  </div>
+</section>
+ 
 
-    <div id="contacts" class="container">
-      <h2 id="contact">Let's Connect</h2>
-    </div>
-    <div class="icon">
-      <div>
-        <img class="logo2" src="/images/logo.png" alt="" />
-      </div>
-      <div>
-        <i class="far fa-envelope"> Email </i>
-        <p>vanliv85@gmail.com</p>
-        <i class="fas fa-mobile-alt"> (909) 252-8282 </i>
-        <p>
-          Monday-Friday <br />
-          9:00am-5:00pm
-        </p>
-        <i class="fas fa-map-marker-alt fa-2x"></i>
-        <h2>Redlands,CA</h2>
-      </div>
-    </div>
-
-    <!-- Footer  -->
-
-    <footer>
-      <div class="social">
-        <i class="fab fa-instagram fa-2x"></i>
-        <i class="fab fa-facebook-square fa-2x"></i>
-      </div>
-      &copy; Liv Lawn Care 2021
-    </footer>
-
-    
-    <script src="script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/00384141bd.js"
-      crossorigin="anonymous"
-    ></script>
-
-  </body>
+</body>
 </html>
